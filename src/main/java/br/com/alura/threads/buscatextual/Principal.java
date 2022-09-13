@@ -2,7 +2,7 @@ package br.com.alura.threads.buscatextual;
 
 public class Principal {
     public static void main(String[] args) {
-        String nomeProcurado = "Jon";
+        String nomeProcurado = "(Dan|Chad)(\\s|\\w)*";
 
         Thread threadAutores = new Thread(new TarefaBuscaNome("autores.txt",
                 nomeProcurado));

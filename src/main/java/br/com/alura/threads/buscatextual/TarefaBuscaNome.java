@@ -26,7 +26,8 @@ public class TarefaBuscaNome implements Runnable {
 
                 String linha = scanner.nextLine();
 
-                if (linha.contains(nome)) {
+                //if (linha.contains(nome))
+                if (linha.matches(nome)){
                     System.out.println(nomeArquivo + " - " + numeroLinha
                             + " - " + linha);
                 }
