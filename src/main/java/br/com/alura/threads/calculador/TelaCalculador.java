@@ -1,4 +1,6 @@
-package br.com.alura.threads;
+package br.com.alura.threads.calculador;
+
+import br.com.alura.threads.calculador.AcaoBotao;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
