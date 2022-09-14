@@ -2,12 +2,14 @@ package br.com.alura.threads.listas;
 
 public class Lista {
 
-    private String[] elementos = new String[100];
+    private String[] elementos = new String[1000];
     private int indice = 0;
 
     public void adicionaElementos(String elemento) {
-        this.elementos[indice] = elemento;
-        this.indice++;
+        synchronized (this) {
+            this.elementos[indice] = elemento;
+            this.indice++;
+        }
     }
 
     public int tamanho() {
