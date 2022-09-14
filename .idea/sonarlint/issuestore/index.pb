@@ -1,8 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-9
-	ReadMe.md,a\2\a225a7e79496c5a1d847c78c3db651eb302ec867
 l
 <src/main/java/br/com/alura/threads/calculador/AcaoBotao.java,c\4\c477807ba16107cce8e2e65a01e403e6c94f59bd
 v
