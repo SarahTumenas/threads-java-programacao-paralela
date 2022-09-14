@@ -27,11 +27,7 @@ v
 Fsrc/main/java/br/com/alura/threads/exercicio/TarefaImprimeNumeros.java,d\4\d42a37a59bfc5e4b83cca9392239c502ef927cdd
 z
 Jsrc/main/java/br/com/alura/threads/exercicio/PrincipalOrdemDeExecucao.java,1\3\13eef9e65b05a3c8411c6819b35ec9abeea80c4d
-x
-Hsrc/main/java/br/com/alura/threads/compartilhandobanheiro/Principal.java,3\b\3b10d35312ffcc038d768083371217e5f1a22605
 |
 Lsrc/main/java/br/com/alura/threads/compartilhandobanheiro/TarefaNumero2.java,b\d\bd2b1fce43f86fbe5ae473cb432feb8846c6515c
 |
 Lsrc/main/java/br/com/alura/threads/compartilhandobanheiro/TarefaNumero1.java,c\0\c0bb7f73fedd09e9440a8acd9348fd702665d6b5
-w
-Gsrc/main/java/br/com/alura/threads/compartilhandobanheiro/Banheiro.java,a\7\a78d5edfc54cb3be660f34b2d7fc287e5eec10fc
