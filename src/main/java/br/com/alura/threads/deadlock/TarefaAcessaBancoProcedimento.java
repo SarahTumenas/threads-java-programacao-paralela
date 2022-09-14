@@ -13,18 +13,16 @@ public class TarefaAcessaBancoProcedimento implements Runnable {
     @Override
     public void run() {
 
-        // dentro do método run da classe TarefaAcessaBancoProcedimento
-        synchronized (tx) {
+        synchronized (pool) {  //primeiro pool
 
-            System.out.println("Peguei a chave da tx");
-            tx.begin();
+            System.out.println("Peguei a chave do pool");
+            pool.getConnection();
 
-            synchronized (pool) {
+            synchronized (tx) {
 
-                System.out.println("Peguei a chave do pool");
-                pool.getConnection();
+                System.out.println("Peguei a chave da tx");
+                tx.begin();
             }
         }
-
     }
 }
