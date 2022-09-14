@@ -13,9 +13,11 @@ public class Banheiro {
 
             System.out.println(nome + " entrando no banheiro");
 
-            if (this.ehSujo) {
+            while (this.ehSujo) {
                 esperaLaFora(nome);
             }
+
+            this.ehSujo = true;
 
             System.out.println(nome + " fazendo coisa rapida");
             System.out.println(nome + " dando descarga");
@@ -34,9 +36,11 @@ public class Banheiro {
 
             System.out.println(nome + " entrando no banheiro");
 
-            if (this.ehSujo) {
+            while (this.ehSujo) {
                 esperaLaFora(nome);
             }
+
+            this.ehSujo = true;
 
             System.out.println(nome + " fazendo coisa demorada");
             System.out.println(nome + " dando descarga");
