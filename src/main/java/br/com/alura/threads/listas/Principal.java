@@ -1,13 +1,14 @@
 package br.com.alura.threads.listas;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Principal {
 
     public static void main(String[] args) throws InterruptedException {
 
-        List<String> lista = new ArrayList<String>();
+        List<String> lista = Collections.synchronizedList(new ArrayList<String>());
 
         for (int i = 0; i < 10; i++) {
             new Thread(new TarefaAdicionarElemento(lista, i)).start();
