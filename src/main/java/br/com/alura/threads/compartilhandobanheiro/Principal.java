@@ -13,11 +13,15 @@ public class Principal {
         Thread convidado3 = new Thread(new TarefaNumero1(banheiro), "Maria");
         Thread convidado4 = new Thread(new TarefaNumero2(banheiro), "Ana");
 
+        Thread limpeza = new Thread(new TarefaLimpeza(banheiro), "Limpeza");
+
         convidado1.start();
         convidado2.start();
 
         convidado3.start();
         convidado4.start();
+
+        limpeza.start();
     }
 
 }
