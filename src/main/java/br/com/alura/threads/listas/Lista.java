@@ -1,7 +1,7 @@
 package br.com.alura.threads.listas;
 
 public class Lista {
-    private String[] elementos = new String[100];
+    private String[] elementos = new String[1000];
     private int indice = 0;
 
     public synchronized void adicionaElementos(String elemento) {
